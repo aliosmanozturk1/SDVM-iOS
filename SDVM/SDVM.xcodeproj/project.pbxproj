@@ -38,6 +38,7 @@
 		71CE13C12BA4728F00D8A0E1 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 71CE13C02BA4728F00D8A0E1 /* FirebaseRemoteConfigSwift */; };
 		71CE13C32BA4728F00D8A0E1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 71CE13C22BA4728F00D8A0E1 /* FirebaseStorage */; };
 		71CE13C52BA4728F00D8A0E1 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 71CE13C42BA4728F00D8A0E1 /* FirebaseStorageCombine-Community */; };
+		71CE13C72BA472F800D8A0E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		71CE13832BA470E200D8A0E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71CE13852BA470E300D8A0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71CE13882BA470E300D8A0E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				71CE13812BA470E200D8A0E1 /* SDVMApp.swift */,
 				71CE13832BA470E200D8A0E1 /* ContentView.swift */,
+				71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */,
 				71CE13852BA470E300D8A0E1 /* Assets.xcassets */,
 				71CE13872BA470E300D8A0E1 /* Preview Content */,
 			);
@@ -213,6 +216,7 @@
 			files = (
 				71CE13892BA470E300D8A0E1 /* Preview Assets.xcassets in Resources */,
 				71CE13862BA470E300D8A0E1 /* Assets.xcassets in Resources */,
+				71CE13C72BA472F800D8A0E1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
