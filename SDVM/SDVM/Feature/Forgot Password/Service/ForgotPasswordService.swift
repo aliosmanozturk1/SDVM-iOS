@@ -1,10 +1,3 @@
-//
-//  ForgotPasswordService.swift
-//  Firebase User Account Management
-//
-//  Created by Tunde on 22/05/2021.
-//
-
 import Foundation
 import Firebase
 import Combine
