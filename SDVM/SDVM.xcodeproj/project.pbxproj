@@ -52,6 +52,7 @@
 		71CE13C72BA472F800D8A0E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */; };
 		71CE13CC2BA4740B00D8A0E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13CB2BA4740B00D8A0E1 /* HomeView.swift */; };
 		71CE13D02BA4757D00D8A0E1 /* NavigationCloseViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13CF2BA4757D00D8A0E1 /* NavigationCloseViewModifier.swift */; };
+		71CE13D22BA475B700D8A0E1 /* engelliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13D12BA475B700D8A0E1 /* engelliView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		71CE13CB2BA4740B00D8A0E1 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		71CE13CF2BA4757D00D8A0E1 /* NavigationCloseViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCloseViewModifier.swift; sourceTree = "<group>"; };
+		71CE13D12BA475B700D8A0E1 /* engelliView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = engelliView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +257,7 @@
 				71CE13C82BA473E600D8A0E1 /* Feature */,
 				71CE13812BA470E200D8A0E1 /* SDVMApp.swift */,
 				052B07AA2BA474F300055040 /* cevirmenView.swift */,
+				71CE13D12BA475B700D8A0E1 /* engelliView.swift */,
 				71CE13832BA470E200D8A0E1 /* ContentView.swift */,
 				71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */,
 				71CE13852BA470E300D8A0E1 /* Assets.xcassets */,
@@ -425,6 +428,7 @@
 				052B07A82BA474BD00055040 /* ForgotPasswordService.swift in Sources */,
 				052B07952BA4747700055040 /* RegisterView.swift in Sources */,
 				052B079E2BA4749600055040 /* LoginService.swift in Sources */,
+				71CE13D22BA475B700D8A0E1 /* engelliView.swift in Sources */,
 				052B079D2BA4749600055040 /* LoginViewModel.swift in Sources */,
 				052B07A72BA474BD00055040 /* ForgotPasswordViewModel.swift in Sources */,
 				052B07A92BA474BD00055040 /* ForgotPasswordView.swift in Sources */,
