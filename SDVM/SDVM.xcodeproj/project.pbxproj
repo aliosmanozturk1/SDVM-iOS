@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		052B078B2BA4745700055040 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B078A2BA4745700055040 /* SessionService.swift */; };
+		052B07932BA4747700055040 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B078E2BA4747700055040 /* RegistrationViewModel.swift */; };
+		052B07942BA4747700055040 /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B07902BA4747700055040 /* RegistrationService.swift */; };
+		052B07952BA4747700055040 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B07922BA4747700055040 /* RegisterView.swift */; };
 		71CE13822BA470E200D8A0E1 /* SDVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13812BA470E200D8A0E1 /* SDVMApp.swift */; };
 		71CE13842BA470E200D8A0E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13832BA470E200D8A0E1 /* ContentView.swift */; };
 		71CE13862BA470E300D8A0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CE13852BA470E300D8A0E1 /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 
 /* Begin PBXFileReference section */
 		052B078A2BA4745700055040 /* SessionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		052B078E2BA4747700055040 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		052B07902BA4747700055040 /* RegistrationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
+		052B07922BA4747700055040 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		71CE137E2BA470E200D8A0E1 /* SDVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CE13812BA470E200D8A0E1 /* SDVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDVMApp.swift; sourceTree = "<group>"; };
 		71CE13832BA470E200D8A0E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +114,40 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		052B078C2BA4747700055040 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				052B078D2BA4747700055040 /* ViewModel */,
+				052B078F2BA4747700055040 /* Service */,
+				052B07912BA4747700055040 /* Views */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		052B078D2BA4747700055040 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				052B078E2BA4747700055040 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		052B078F2BA4747700055040 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				052B07902BA4747700055040 /* RegistrationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		052B07912BA4747700055040 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				052B07922BA4747700055040 /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		71CE13752BA470E200D8A0E1 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +188,7 @@
 		71CE13C82BA473E600D8A0E1 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				052B078C2BA4747700055040 /* Registration */,
 				052B07882BA4745700055040 /* Session */,
 				71CE13C92BA473EF00D8A0E1 /* Home */,
 			);
@@ -273,9 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052B07932BA4747700055040 /* RegistrationViewModel.swift in Sources */,
 				052B078B2BA4745700055040 /* SessionService.swift in Sources */,
 				71CE13CC2BA4740B00D8A0E1 /* HomeView.swift in Sources */,
+				052B07952BA4747700055040 /* RegisterView.swift in Sources */,
 				71CE13842BA470E200D8A0E1 /* ContentView.swift in Sources */,
+				052B07942BA4747700055040 /* RegistrationService.swift in Sources */,
 				71CE13822BA470E200D8A0E1 /* SDVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
