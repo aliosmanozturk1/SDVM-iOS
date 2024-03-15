@@ -39,6 +39,7 @@
 		71CE13C32BA4728F00D8A0E1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 71CE13C22BA4728F00D8A0E1 /* FirebaseStorage */; };
 		71CE13C52BA4728F00D8A0E1 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 71CE13C42BA4728F00D8A0E1 /* FirebaseStorageCombine-Community */; };
 		71CE13C72BA472F800D8A0E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */; };
+		71CE13CC2BA4740B00D8A0E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13CB2BA4740B00D8A0E1 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		71CE13852BA470E300D8A0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71CE13882BA470E300D8A0E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71CE13CB2BA4740B00D8A0E1 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		71CE13802BA470E200D8A0E1 /* SDVM */ = {
 			isa = PBXGroup;
 			children = (
+				71CE13C82BA473E600D8A0E1 /* Feature */,
 				71CE13812BA470E200D8A0E1 /* SDVMApp.swift */,
 				71CE13832BA470E200D8A0E1 /* ContentView.swift */,
 				71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */,
@@ -122,6 +125,30 @@
 				71CE13882BA470E300D8A0E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71CE13C82BA473E600D8A0E1 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				71CE13C92BA473EF00D8A0E1 /* Home */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		71CE13C92BA473EF00D8A0E1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				71CE13CA2BA473FD00D8A0E1 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		71CE13CA2BA473FD00D8A0E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71CE13CB2BA4740B00D8A0E1 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CE13CC2BA4740B00D8A0E1 /* HomeView.swift in Sources */,
 				71CE13842BA470E200D8A0E1 /* ContentView.swift in Sources */,
 				71CE13822BA470E200D8A0E1 /* SDVMApp.swift in Sources */,
 			);
