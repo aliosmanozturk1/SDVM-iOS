@@ -19,7 +19,6 @@
 		052B07A92BA474BD00055040 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B07A62BA474BD00055040 /* ForgotPasswordView.swift */; };
 		052B07AB2BA474F300055040 /* cevirmenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B07AA2BA474F300055040 /* cevirmenView.swift */; };
 		71CE13822BA470E200D8A0E1 /* SDVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13812BA470E200D8A0E1 /* SDVMApp.swift */; };
-		71CE13842BA470E200D8A0E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13832BA470E200D8A0E1 /* ContentView.swift */; };
 		71CE13862BA470E300D8A0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CE13852BA470E300D8A0E1 /* Assets.xcassets */; };
 		71CE13892BA470E300D8A0E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CE13882BA470E300D8A0E1 /* Preview Assets.xcassets */; };
 		71CE13912BA4728F00D8A0E1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 71CE13902BA4728F00D8A0E1 /* FirebaseAnalytics */; };
@@ -70,7 +69,6 @@
 		052B07AA2BA474F300055040 /* cevirmenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cevirmenView.swift; sourceTree = "<group>"; };
 		71CE137E2BA470E200D8A0E1 /* SDVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CE13812BA470E200D8A0E1 /* SDVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDVMApp.swift; sourceTree = "<group>"; };
-		71CE13832BA470E200D8A0E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71CE13852BA470E300D8A0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71CE13882BA470E300D8A0E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -260,7 +258,6 @@
 				71CE13812BA470E200D8A0E1 /* SDVMApp.swift */,
 				052B07AA2BA474F300055040 /* cevirmenView.swift */,
 				71CE13D12BA475B700D8A0E1 /* engelliView.swift */,
-				71CE13832BA470E200D8A0E1 /* ContentView.swift */,
 				71CE13D32BA475D900D8A0E1 /* takipciView.swift */,
 				71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */,
 				71CE13852BA470E300D8A0E1 /* Assets.xcassets */,
@@ -436,7 +433,6 @@
 				71CE13D42BA475D900D8A0E1 /* takipciView.swift in Sources */,
 				052B07A72BA474BD00055040 /* ForgotPasswordViewModel.swift in Sources */,
 				052B07A92BA474BD00055040 /* ForgotPasswordView.swift in Sources */,
-				71CE13842BA470E200D8A0E1 /* ContentView.swift in Sources */,
 				71CE13D02BA4757D00D8A0E1 /* NavigationCloseViewModifier.swift in Sources */,
 				052B07942BA4747700055040 /* RegistrationService.swift in Sources */,
 				052B079F2BA4749600055040 /* LoginView.swift in Sources */,
