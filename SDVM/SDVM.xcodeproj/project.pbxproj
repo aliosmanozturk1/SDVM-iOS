@@ -17,6 +17,7 @@
 		052B07A72BA474BD00055040 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B07A22BA474BD00055040 /* ForgotPasswordViewModel.swift */; };
 		052B07A82BA474BD00055040 /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B07A42BA474BD00055040 /* ForgotPasswordService.swift */; };
 		052B07A92BA474BD00055040 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B07A62BA474BD00055040 /* ForgotPasswordView.swift */; };
+		052B07AB2BA474F300055040 /* cevirmenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B07AA2BA474F300055040 /* cevirmenView.swift */; };
 		71CE13822BA470E200D8A0E1 /* SDVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13812BA470E200D8A0E1 /* SDVMApp.swift */; };
 		71CE13842BA470E200D8A0E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE13832BA470E200D8A0E1 /* ContentView.swift */; };
 		71CE13862BA470E300D8A0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CE13852BA470E300D8A0E1 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		052B07A22BA474BD00055040 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		052B07A42BA474BD00055040 /* ForgotPasswordService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
 		052B07A62BA474BD00055040 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		052B07AA2BA474F300055040 /* cevirmenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cevirmenView.swift; sourceTree = "<group>"; };
 		71CE137E2BA470E200D8A0E1 /* SDVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CE13812BA470E200D8A0E1 /* SDVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDVMApp.swift; sourceTree = "<group>"; };
 		71CE13832BA470E200D8A0E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 			children = (
 				71CE13C82BA473E600D8A0E1 /* Feature */,
 				71CE13812BA470E200D8A0E1 /* SDVMApp.swift */,
+				052B07AA2BA474F300055040 /* cevirmenView.swift */,
 				71CE13832BA470E200D8A0E1 /* ContentView.swift */,
 				71CE13C62BA472F800D8A0E1 /* GoogleService-Info.plist */,
 				71CE13852BA470E300D8A0E1 /* Assets.xcassets */,
@@ -399,6 +402,7 @@
 				052B07932BA4747700055040 /* RegistrationViewModel.swift in Sources */,
 				052B078B2BA4745700055040 /* SessionService.swift in Sources */,
 				71CE13CC2BA4740B00D8A0E1 /* HomeView.swift in Sources */,
+				052B07AB2BA474F300055040 /* cevirmenView.swift in Sources */,
 				052B07A82BA474BD00055040 /* ForgotPasswordService.swift in Sources */,
 				052B07952BA4747700055040 /* RegisterView.swift in Sources */,
 				052B079E2BA4749600055040 /* LoginService.swift in Sources */,
